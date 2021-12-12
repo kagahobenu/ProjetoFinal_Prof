@@ -1,0 +1,12 @@
+CREATE TABLE alunos (
+    id        INTEGER      PRIMARY KEY
+                           NOT NULL,
+    nome      TEXT (100)   NOT NULL,
+    cpf       INTEGER (11) NOT NULL,
+    telefone  INTEGER (11) NOT NULL,
+    curso     TEXT (100)   NOT NULL,
+    matricula INTEGER (6)  NOT NULL
+                           UNIQUE,
+    semestre  INTEGER (5)  NOT NULL,
+    status    TEXT         NOT NULL
+);

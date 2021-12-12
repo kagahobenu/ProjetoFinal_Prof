@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="menu_img">
+    <file>logo_menu.png</file>
+    <file>menu_deslogar.png</file>
+  </qresource>
+</RCC>

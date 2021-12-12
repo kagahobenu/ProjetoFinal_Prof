@@ -1,0 +1,12 @@
+CREATE TABLE professores (
+    id        INTEGER      PRIMARY KEY
+                           NOT NULL,
+    nome      TEXT (100)   NOT NULL,
+    cpf       INTEGER (11) NOT NULL,
+    telefone  INTEGER (11) NOT NULL,
+    cuso      TEXT (100)   NOT NULL,
+    matricula INTEGER (6)  UNIQUE
+                           NOT NULL,
+    quant     INTEGER (2)  NOT NULL,
+    status    TEXT (100)   NOT NULL
+);

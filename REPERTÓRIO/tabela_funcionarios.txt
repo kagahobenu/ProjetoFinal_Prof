@@ -1,0 +1,11 @@
+CREATE TABLE funcionarios (
+    id        INTEGER      PRIMARY KEY
+                           NOT NULL,
+    nome      TEXT (100)   NOT NULL,
+    cpf       INTEGER (11) NOT NULL
+                           UNIQUE,
+    matricula INTEGER (6)  UNIQUE
+                           NOT NULL,
+    cargo     TEXT (100)   NOT NULL,
+    nivel     TEXT (100)   NOT NULL
+);
